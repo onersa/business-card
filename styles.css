@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 50px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 5px solid #607274;
+  border-radius: 4px;
+  background-color: #ded0b6;
+  color: #363e3f;
+  width: 450px;
+  padding: 15px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 2rem;
+  margin: 0 auto;
+  box-shadow: 1px 1px 5px;
+}
+
+.profile-img {
+  width: 150px;
+  border: 1px solid #363e3f;
+  border-radius: 4px;
+}
+
+.profile-details {
+  font-size: 0.8rem;
+}
