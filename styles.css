@@ -15,7 +15,7 @@ body {
   border-radius: 4px;
   background-color: #ded0b6;
   color: #363e3f;
-  width: 450px;
+  max-width: 450px;
   padding: 15px;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -32,4 +32,12 @@ body {
 
 .profile-details {
   font-size: 0.8rem;
+}
+
+@media (max-width: 670px) {
+  .main {
+    flex-direction: column;
+    min-width: 450px;
+    width: 90%;
+  }
 }
